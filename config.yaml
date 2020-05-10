@@ -1,0 +1,117 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_xresources:
+    src: Xresources
+    dst: ~/.Xresources
+  d_bashtop:
+    src: config/bashtop
+    dst: ~/.config/bashtop
+  d_dconf:
+    src: config/dconf
+    dst: ~/.config/dconf
+  d_dunst:
+    src: config/dunst
+    dst: ~/.config/dunst
+  d_fish:
+    src: config/fish
+    dst: ~/.config/fish
+  d_fontconfig:
+    src: config/fontconfig
+    dst: ~/.config/fontconfig
+  d_geany:
+    src: config/geany
+    dst: ~/.config/geany
+  d_gsimplecal:
+    src: config/gsimplecal
+    dst: ~/.config/gsimplecal
+  d_gtk-3.0:
+    src: config/gtk-3.0
+    dst: ~/.config/gtk-3.0
+  d_i3:
+    src: config/i3
+    dst: ~/.config/i3
+  d_i3status:
+    src: config/i3status
+    dst: ~/.config/i3status
+  d_nautilus:
+    src: config/nautilus
+    dst: ~/.config/nautilus
+  d_neofetch:
+    src: config/neofetch
+    dst: ~/.config/neofetch
+  d_nitrogen:
+    src: config/nitrogen
+    dst: ~/.config/nitrogen
+  f_picom.conf:
+    src: config/picom.conf
+    dst: ~/.config/picom.conf
+  d_pulse:
+    src: config/pulse
+    dst: ~/.config/pulse
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
+  d_sublime-text-3:
+    src: config/sublime-text-3
+    dst: ~/.config/sublime-text-3
+  f_user-dirs.dirs:
+    src: config/user-dirs.dirs
+    dst: ~/.config/user-dirs.dirs
+  f_user-dirs.locale:
+    src: config/user-dirs.locale
+    dst: ~/.config/user-dirs.locale
+  d_volumeicon:
+    src: config/volumeicon
+    dst: ~/.config/volumeicon
+  d_xfce4:
+    src: config/xfce4
+    dst: ~/.config/xfce4
+  d_yay:
+    src: config/yay
+    dst: ~/.config/yay
+  f_xprofile:
+    src: xprofile
+    dst: ~/.xprofile
+  f_xauthority:
+    src: Xauthority
+    dst: ~/.Xauthority
+profiles:
+  archur:
+    dotfiles:
+    - f_zshrc
+    - f_xresources
+    - d_bashtop
+    - d_dconf
+    - d_dunst
+    - d_fish
+    - d_fontconfig
+    - d_geany
+    - d_gsimplecal
+    - d_gtk-3.0
+    - d_i3
+    - d_i3status
+    - d_nautilus
+    - d_neofetch
+    - d_nitrogen
+    - f_picom.conf
+    - d_pulse
+    - d_ranger
+    - d_sublime-text-3
+    - f_user-dirs.dirs
+    - f_user-dirs.locale
+    - d_volumeicon
+    - d_xfce4
+    - d_yay
+    - f_xprofile
+    - f_xauthority
