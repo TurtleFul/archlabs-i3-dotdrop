@@ -1,13 +1,15 @@
 #!/bin/bash
 
-cd ~/dotfiles/archlabs-i3-dotdrop/
-dotdrop import ~/.Xresources ~/.xprofile ~/.Xauthority ~/.zshrc ~/.config/*
+cd /home/archur/dotfiles/archlabs-i3-dotdrop/
 
-git add *
+sudo dotdrop import -f /home/archur/.Xresources /home/archur/.xprofile /home/archur/.Xauthority /home/archur/.zshrc /home/archur/.config/*
 
-git commit -m "autodotdropbackup on: $(date +"%d-%b-%Y")"
+sudo git add *
 
+sudoi git commit -m "autodotdropbackup on: $(date +"%d-%b-%Y") Nr: $(git rev-list --count HEAD)"
 
-git push origin master
+sudo git push origin master
+
+cd
 
 echo all done

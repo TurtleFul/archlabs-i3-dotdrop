@@ -86,6 +86,84 @@ dotfiles:
   f_xauthority:
     src: Xauthority
     dst: ~/.Xauthority
+  f_archur_xresources:
+    src: home/archur/.Xresources
+    dst: /home/archur/.Xresources
+  f_archur_xprofile:
+    src: home/archur/.xprofile
+    dst: /home/archur/.xprofile
+  f_archur_xauthority:
+    src: home/archur/.Xauthority
+    dst: /home/archur/.Xauthority
+  f_archur_zshrc:
+    src: home/archur/.zshrc
+    dst: /home/archur/.zshrc
+  d_config_bashtop:
+    src: home/archur/.config/bashtop
+    dst: /home/archur/.config/bashtop
+  d_config_dconf:
+    src: home/archur/.config/dconf
+    dst: /home/archur/.config/dconf
+  d_config_dunst:
+    src: home/archur/.config/dunst
+    dst: /home/archur/.config/dunst
+  d_config_fish:
+    src: home/archur/.config/fish
+    dst: /home/archur/.config/fish
+  d_config_fontconfig:
+    src: home/archur/.config/fontconfig
+    dst: /home/archur/.config/fontconfig
+  d_config_geany:
+    src: home/archur/.config/geany
+    dst: /home/archur/.config/geany
+  d_config_gsimplecal:
+    src: home/archur/.config/gsimplecal
+    dst: /home/archur/.config/gsimplecal
+  d_config_gtk-3.0:
+    src: home/archur/.config/gtk-3.0
+    dst: /home/archur/.config/gtk-3.0
+  d_config_i3:
+    src: home/archur/.config/i3
+    dst: /home/archur/.config/i3
+  d_config_i3status:
+    src: home/archur/.config/i3status
+    dst: /home/archur/.config/i3status
+  d_config_nautilus:
+    src: home/archur/.config/nautilus
+    dst: /home/archur/.config/nautilus
+  d_config_neofetch:
+    src: home/archur/.config/neofetch
+    dst: /home/archur/.config/neofetch
+  d_config_nitrogen:
+    src: home/archur/.config/nitrogen
+    dst: /home/archur/.config/nitrogen
+  f_config_picom.conf:
+    src: home/archur/.config/picom.conf
+    dst: /home/archur/.config/picom.conf
+  d_config_pulse:
+    src: home/archur/.config/pulse
+    dst: /home/archur/.config/pulse
+  d_config_ranger:
+    src: home/archur/.config/ranger
+    dst: /home/archur/.config/ranger
+  d_config_sublime-text-3:
+    src: home/archur/.config/sublime-text-3
+    dst: /home/archur/.config/sublime-text-3
+  f_config_user-dirs.dirs:
+    src: home/archur/.config/user-dirs.dirs
+    dst: /home/archur/.config/user-dirs.dirs
+  f_config_user-dirs.locale:
+    src: home/archur/.config/user-dirs.locale
+    dst: /home/archur/.config/user-dirs.locale
+  d_config_volumeicon:
+    src: home/archur/.config/volumeicon
+    dst: /home/archur/.config/volumeicon
+  d_config_xfce4:
+    src: home/archur/.config/xfce4
+    dst: /home/archur/.config/xfce4
+  d_config_yay:
+    src: home/archur/.config/yay
+    dst: /home/archur/.config/yay
 profiles:
   archur:
     dotfiles:
@@ -115,3 +193,29 @@ profiles:
     - d_yay
     - f_xprofile
     - f_xauthority
+    - f_archur_xresources
+    - f_archur_xprofile
+    - f_archur_xauthority
+    - f_archur_zshrc
+    - d_config_bashtop
+    - d_config_dconf
+    - d_config_dunst
+    - d_config_fish
+    - d_config_fontconfig
+    - d_config_geany
+    - d_config_gsimplecal
+    - d_config_gtk-3.0
+    - d_config_i3
+    - d_config_i3status
+    - d_config_nautilus
+    - d_config_neofetch
+    - d_config_nitrogen
+    - f_config_picom.conf
+    - d_config_pulse
+    - d_config_ranger
+    - d_config_sublime-text-3
+    - f_config_user-dirs.dirs
+    - f_config_user-dirs.locale
+    - d_config_volumeicon
+    - d_config_xfce4
+    - d_config_yay
